@@ -283,14 +283,16 @@ textarea {
     flex-direction: column;
   }
   .skills-container {
-    width: 100%;
+    margin: 5px 2px;
+    max-width: 100%;
   }
   .skills {
     flex-direction: column;
+    gap: 5px;
   }
   .skill {
-    margin: 5px;
-    padding: 5px;
+    margin: 5px 3px;
+    padding: 5px 2px;
     width: 100%;
   }
   .skill img {
