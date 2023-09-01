@@ -245,6 +245,15 @@ textarea {
 /* responsive */
 
 @media screen and (max-width: 576px) {
+  .about-section {
+    padding: 10px 5px;
+  }
+  .about-info-container {
+    flex-direction: column;
+  }
+  .skills-container {
+    width: 100%;
+  }
   .skills {
     flex-direction: column;
   }
