@@ -245,6 +245,18 @@ textarea {
 /* responsive */
 
 @media screen and (max-width: 576px) {
+  .skills {
+    flex-direction: column;
+  }
+  .skill {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  .skill img {
+    border-radius: 5px;
+    margin: 5px 150px;
+  }
   .resume-container {
     flex-direction: column;
     gap: 100px;
@@ -252,6 +264,11 @@ textarea {
   .resume-container h1 {
     font-size: 50px;
     color: #fd6e0a;
+  }
+  .education-text .experience-text {
+    color: #757575;
+    font-size: 20px;
+    line-height: 12px;
   }
   .education-title,
   .experience-title {
