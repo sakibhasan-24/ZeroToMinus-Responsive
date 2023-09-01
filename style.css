@@ -245,6 +245,37 @@ textarea {
 /* responsive */
 
 @media screen and (max-width: 576px) {
+  header {
+    width: 100%;
+  }
+  nav {
+    margin: 10px 0;
+    flex-direction: column;
+    /* flex-direction: column;
+    justify-content: space-evenly; */
+  }
+  nav > ul {
+    justify-content: flex-start;
+    margin: 5px 0;
+  }
+  .banner-container {
+    flex-direction: column;
+    padding: 0;
+    justify-content: flex-start;
+  }
+  .banner-text {
+    max-width: 100%;
+  }
+  .banner-img img {
+    width: 60%;
+    margin: 10px 3px;
+  }
+  .banner-greet {
+    font-size: 30px;
+  }
+  .banner-name {
+    font-size: 20px;
+  }
   .about-section {
     padding: 10px 5px;
   }
