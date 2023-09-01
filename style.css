@@ -247,46 +247,30 @@ textarea {
 @media screen and (max-width: 576px) {
   footer {
     margin: 0;
-    width: 100%;
+    text-align: start;
   }
   .footer-container {
-    width: 100%;
     flex-direction: column;
   }
+
   .connection {
+    width: 100%;
     margin: 2px;
   }
   .footer-text {
-    margin-left: 2px;
-    width: 100%;
-    padding: 2px;
+    padding: 0;
+    margin-left: 0;
+  }
+  .icon-container img {
+    margin-right: 20px;
+    cursor: pointer;
   }
   .form-section {
-    margin-left: 2px;
-  }
-  .form-section input {
-    height: 20px;
-    width: 50%;
+    margin-left: 0;
+    width: 80%;
+    margin-top: 50px;
   }
   textarea {
-    padding: auto;
+    padding: 1px;
   }
 }
-
-/* 
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/sakibhasan-24/ZeroToMinus-Responsive.git
-git push -u origin main
-
-
-
-
-
-
-
-
-*/
